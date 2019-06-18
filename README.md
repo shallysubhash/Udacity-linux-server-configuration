@@ -15,7 +15,7 @@ SSH into your server
 - Add the following text grader ALL=(ALL:ALL) ALL
 # Update all currently installed packages
 - $ sudo apt-get update
-- $ sudo apt-get upgrade
+- $ sudo apt-get dist-upgrade
 # Configure the local timezone to UTC
 - $ sudo dpkg-reconfigure tzdata
 - $ sudo apt-get install ntp
@@ -119,3 +119,7 @@ exit
 - Edit flow_from_clientsecrets('client_secrets.json') to flow_from_clientsecrets('/var/www/category/category/client_secrets.json')
 
 # Launch the Web Application at http://35.154.32.235.xip.io/
+
+#Resources
+- DigitalOcean [How To Deploy a Flask Application on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+- Troubleshoot Google authentication (https://github.com/jungleBadger/-nanodegree-linux-server-troubleshoot/tree/master/OAuth_login)
