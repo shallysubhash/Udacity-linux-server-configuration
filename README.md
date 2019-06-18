@@ -118,4 +118,4 @@ exit
 - Replace the client_secrets.json file with the updated version in server
 - Edit flow_from_clientsecrets('client_secrets.json') to flow_from_clientsecrets('/var/www/category/category/client_secrets.json')
 
-
+# Launch the Web Application at http://35.154.32.235.xip.io/
