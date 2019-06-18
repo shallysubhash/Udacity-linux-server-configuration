@@ -1,6 +1,6 @@
 # Udacity-linux-server-configuration
 This is the fifth project for "Full Stack Web Developer Nanodegree" on Udacity. In this project, a Linux virtual machine needs to be configured to support the Item Catalog website.
-- IP address: 35.167.27.204
+- IP address: 35.154.32.235
 - Accessible SSH port: 2200
 - Application URL : http://ec2-35-154-32-235.us-west-2.compute.amazonaws.com
 # walkthrough
